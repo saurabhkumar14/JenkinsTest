@@ -7,7 +7,7 @@ import java.util.Properties;
 public class Hello_word {
 
 	public static void main(String[] args) {
-
+		System.out.println("Variable value : "+System.getenv("APP_NAME"));
 		System.out.println("Hello World");
 		try {
 			// Specify the file name and path
