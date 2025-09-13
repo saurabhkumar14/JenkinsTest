@@ -7,10 +7,9 @@
 # documentation.
 
 name: Java CI with Maven
-
 on:
-workflow_dispatch:
-  inputs:
+  workflow_dispatch:
+   inputs:
     environmets:
     description: |
       Select the **Environment** where you can build project.
