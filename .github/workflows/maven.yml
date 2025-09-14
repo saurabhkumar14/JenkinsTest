@@ -13,8 +13,8 @@ on:
     environmets:
      description: >
       Select the **Environment** where you can build project.
-      - **dev** ->Dev Server
-      - **uat** ->uat Server
+      - \n**dev** ->Dev Server
+      - \n**uat** ->uat Server
      required: true
      default: dev
      type: choice
