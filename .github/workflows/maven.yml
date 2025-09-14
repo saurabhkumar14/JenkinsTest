@@ -11,7 +11,7 @@ on:
   workflow_dispatch:
    inputs:
     environmets:
-     description: |
+     description: >
       Select the **Environment** where you can build project.
       - **dev** ->Dev Server
       - **uat** ->uat Server
