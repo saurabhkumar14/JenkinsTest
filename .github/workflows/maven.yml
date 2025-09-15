@@ -12,7 +12,7 @@ on:
    inputs:
     environmets:
      description: |
-      .....Please provide below details :.....
+      ..... Please provide below details : .....
       [    - Enter Ticket Number               ]
       [   - Enter branch name                  ]
       [     - Enter version                    ]
