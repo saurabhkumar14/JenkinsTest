@@ -11,16 +11,21 @@ on:
   workflow_dispatch:
    inputs:
     environmets:
-     description: >
-      Select the **Environment** where you can build project.
-      - \n**dev** ->Dev Server
-      - \n**uat** ->uat Server
+     description: "Choose environment"
      required: true
      default: dev
      type: choice
      options: 
       - dev
       - qa
+    dev_notes:
+     description: "For DEV ->Provide feature branch name"
+     required: false
+     type: string
+    uat_notes:
+     description: "For UAT ->Provide feature branch name"
+     required: false
+     type: string
 jobs:
   build:
 
