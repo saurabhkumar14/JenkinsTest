@@ -11,7 +11,12 @@ on:
   workflow_dispatch:
    inputs:
     environmets:
-     description: "Choose environment"
+     description: |
+      Please provide below details :
+      - Enter Ticket Number
+      - Enter branch name
+      - Enter version
+      
      required: true
      default: dev
      type: choice
