@@ -21,11 +21,11 @@ on:
     dev_notes:
      description: "For DEV ->Provide feature branch name"
      required: false
-     type: string
+     #type: string
     uat_notes:
      description: "For UAT ->Provide feature branch name"
      required: false
-     type: string
+     #type: string
 jobs:
   build:
 
