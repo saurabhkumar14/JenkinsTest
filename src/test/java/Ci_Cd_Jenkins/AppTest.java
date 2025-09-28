@@ -23,6 +23,6 @@ public class AppTest {
     @Test
     void testFailureExample() {
         App app = new App();
-        assertEquals(10, app.add(5, 5), "Intentional failure for demo");
+        assertEquals(10, app.add(5, 2), "Intentional failure for demo");
     }
 }
