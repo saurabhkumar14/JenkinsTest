@@ -32,12 +32,6 @@ pipeline {
             }
         }
 
-        stage('Archive Artifact') {
-            steps {
-                echo "📦 Archiving JAR..."
-                archiveArtifacts artifacts: 'target/java-ci-demo-*-shaded.jar', fingerprint: true
-            }
-        }
     }
 
     post {
