@@ -20,11 +20,12 @@ public class AppTest {
                    "String should contain 'Jenkins'");
     }
 
-    @Test
+   /* @Test
     void testFailureExample() {
         App app = new App();
         assertEquals(10, app.add(5, 2), "Intentional failure for demo");
-    }
+    }*/
+    
     @Test
     void testAddition2() {
         App app = new App();
