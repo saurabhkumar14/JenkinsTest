@@ -25,4 +25,9 @@ public class AppTest {
         App app = new App();
         assertEquals(10, app.add(5, 2), "Intentional failure for demo");
     }
+    @Test
+    void testAddition2() {
+        App app = new App();
+        assertEquals(20, app.add(15, 5), "Additon of 15 and 5");
+    }
 }
