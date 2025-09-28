@@ -15,15 +15,15 @@ pipeline {
 
         stage('Build') {
             steps {
-                echo "🔨 Building project..."
-                sh 'mvn clean package -DskipTests'
+                echo "🔨Building project..."
+                bat 'mvn clean package -DskipTests'
             }
         }
 
         stage('Test') {
             steps {
                 echo "🧪 Running unit tests..."
-                sh 'mvn test'
+                bat 'mvn test'
             }
             post {
                 always {
